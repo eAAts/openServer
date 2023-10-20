@@ -1,0 +1,5 @@
+.env.enc
+.env
+/node_moudles
+node_modules/
+package-lock.json
