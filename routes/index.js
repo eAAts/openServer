@@ -6,4 +6,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/payment', function(req, res, next) {
+  console.log(req.query.testParam)
+  const testResponse = req.query.testParam;
+  res.send(testResponse);
+});
+
 module.exports = router;
