@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.get('/hi', async function(req, res, next) {
+router.get('/pay', async function(req, res, next) {
   const tokenAddress = req.query.tokenAddress;
   const amount = req.query.amount;
   const targetChainId = req.query.targetChainId;
